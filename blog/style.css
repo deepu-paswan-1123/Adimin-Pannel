@@ -1,0 +1,85 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+::selection{
+    background-color: black;
+    color: red;
+ } 
+
+.img .my_image{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.profile{
+
+    height: 130px;
+    width: 150px;
+    background-color:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.495);
+    position: absolute;
+    z-index: 99;
+    right: 20px;
+    transform: scale(0);
+    transition: all .2s linear;
+    transform-origin: top;
+    border-radius:10px;
+    cursor: pointer;
+    user-select: none;
+    /* display: flex;
+    flex-direction: column; */
+    padding-left: 10px;
+    padding-top: 10px;
+  
+   
+
+}
+
+.profile h5{
+    font-size: 2.9vmin;
+}
+
+.profile1{
+
+    transform: scale(1);
+}
+
+.reg_btn2{
+    display:none;
+   
+}
+
+.hide{
+    display: none;
+}
+.hide.hide1{
+    display: block;
+}
+
+.nav_hide2{
+    display:none ;
+}
+
+.profile_image{
+    height: 40px;
+    width: 40px;
+    background-color:black;
+    margin-bottom: 10px;
+}
+.profile_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.postimg{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+
